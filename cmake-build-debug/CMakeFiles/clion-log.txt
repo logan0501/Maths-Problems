@@ -1,0 +1,4 @@
+"D:\Softwares\CLion 2020.2.1\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "F:\dsa\CLION\Maths Problems"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/dsa/CLION/Maths Problems/cmake-build-debug

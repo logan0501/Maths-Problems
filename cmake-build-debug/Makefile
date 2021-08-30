@@ -246,6 +246,46 @@ gfg5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/build
 .PHONY : gfg5/fast
 
+#=============================================================================
+# Target rules for targets named gfg6
+
+# Build rule for target.
+gfg6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg6
+.PHONY : gfg6
+
+# fast build rule for target.
+gfg6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/build
+.PHONY : gfg6/fast
+
+GFG/PrimeNumber.obj: GFG/PrimeNumber.cpp.obj
+
+.PHONY : GFG/PrimeNumber.obj
+
+# target to build an object file
+GFG/PrimeNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/GFG/PrimeNumber.cpp.obj
+.PHONY : GFG/PrimeNumber.cpp.obj
+
+GFG/PrimeNumber.i: GFG/PrimeNumber.cpp.i
+
+.PHONY : GFG/PrimeNumber.i
+
+# target to preprocess a source file
+GFG/PrimeNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/GFG/PrimeNumber.cpp.i
+.PHONY : GFG/PrimeNumber.cpp.i
+
+GFG/PrimeNumber.s: GFG/PrimeNumber.cpp.s
+
+.PHONY : GFG/PrimeNumber.s
+
+# target to generate assembly for a file
+GFG/PrimeNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/GFG/PrimeNumber.cpp.s
+.PHONY : GFG/PrimeNumber.cpp.s
+
 GFG/absolutevalue.obj: GFG/absolutevalue.cpp.obj
 
 .PHONY : GFG/absolutevalue.obj
@@ -506,6 +546,10 @@ help:
 	@echo ... gfg3
 	@echo ... gfg4
 	@echo ... gfg5
+	@echo ... gfg6
+	@echo ... GFG/PrimeNumber.obj
+	@echo ... GFG/PrimeNumber.i
+	@echo ... GFG/PrimeNumber.s
 	@echo ... GFG/absolutevalue.obj
 	@echo ... GFG/absolutevalue.i
 	@echo ... GFG/absolutevalue.s

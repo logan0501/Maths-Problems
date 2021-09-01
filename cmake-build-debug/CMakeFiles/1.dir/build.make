@@ -76,27 +76,27 @@ include CMakeFiles/1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1.dir/flags.make
 
-CMakeFiles/1.dir/countdigits.cpp.obj: CMakeFiles/1.dir/flags.make
-CMakeFiles/1.dir/countdigits.cpp.obj: ../countdigits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1.dir/countdigits.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1.dir\countdigits.cpp.obj -c "F:\dsa\CLION\Maths Problems\countdigits.cpp"
+CMakeFiles/1.dir/GFG/countdigits.cpp.obj: CMakeFiles/1.dir/flags.make
+CMakeFiles/1.dir/GFG/countdigits.cpp.obj: ../GFG/countdigits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1.dir/GFG/countdigits.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1.dir\GFG\countdigits.cpp.obj -c "F:\dsa\CLION\Maths Problems\GFG\countdigits.cpp"
 
-CMakeFiles/1.dir/countdigits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1.dir/countdigits.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\countdigits.cpp" > CMakeFiles\1.dir\countdigits.cpp.i
+CMakeFiles/1.dir/GFG/countdigits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1.dir/GFG/countdigits.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\GFG\countdigits.cpp" > CMakeFiles\1.dir\GFG\countdigits.cpp.i
 
-CMakeFiles/1.dir/countdigits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.dir/countdigits.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\countdigits.cpp" -o CMakeFiles\1.dir\countdigits.cpp.s
+CMakeFiles/1.dir/GFG/countdigits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.dir/GFG/countdigits.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\GFG\countdigits.cpp" -o CMakeFiles\1.dir\GFG\countdigits.cpp.s
 
 # Object files for target 1
 1_OBJECTS = \
-"CMakeFiles/1.dir/countdigits.cpp.obj"
+"CMakeFiles/1.dir/GFG/countdigits.cpp.obj"
 
 # External object files for target 1
 1_EXTERNAL_OBJECTS =
 
-1.exe: CMakeFiles/1.dir/countdigits.cpp.obj
+1.exe: CMakeFiles/1.dir/GFG/countdigits.cpp.obj
 1.exe: CMakeFiles/1.dir/build.make
 1.exe: CMakeFiles/1.dir/linklibs.rsp
 1.exe: CMakeFiles/1.dir/objects1.rsp

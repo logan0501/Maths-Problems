@@ -76,27 +76,27 @@ include CMakeFiles/4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/4.dir/flags.make
 
-CMakeFiles/4.dir/primefactor.cpp.obj: CMakeFiles/4.dir/flags.make
-CMakeFiles/4.dir/primefactor.cpp.obj: ../primefactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4.dir/primefactor.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4.dir\primefactor.cpp.obj -c "F:\dsa\CLION\Maths Problems\primefactor.cpp"
+CMakeFiles/4.dir/GFG/primefactor.cpp.obj: CMakeFiles/4.dir/flags.make
+CMakeFiles/4.dir/GFG/primefactor.cpp.obj: ../GFG/primefactor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4.dir/GFG/primefactor.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4.dir\GFG\primefactor.cpp.obj -c "F:\dsa\CLION\Maths Problems\GFG\primefactor.cpp"
 
-CMakeFiles/4.dir/primefactor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4.dir/primefactor.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\primefactor.cpp" > CMakeFiles\4.dir\primefactor.cpp.i
+CMakeFiles/4.dir/GFG/primefactor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4.dir/GFG/primefactor.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\GFG\primefactor.cpp" > CMakeFiles\4.dir\GFG\primefactor.cpp.i
 
-CMakeFiles/4.dir/primefactor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4.dir/primefactor.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\primefactor.cpp" -o CMakeFiles\4.dir\primefactor.cpp.s
+CMakeFiles/4.dir/GFG/primefactor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4.dir/GFG/primefactor.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\GFG\primefactor.cpp" -o CMakeFiles\4.dir\GFG\primefactor.cpp.s
 
 # Object files for target 4
 4_OBJECTS = \
-"CMakeFiles/4.dir/primefactor.cpp.obj"
+"CMakeFiles/4.dir/GFG/primefactor.cpp.obj"
 
 # External object files for target 4
 4_EXTERNAL_OBJECTS =
 
-4.exe: CMakeFiles/4.dir/primefactor.cpp.obj
+4.exe: CMakeFiles/4.dir/GFG/primefactor.cpp.obj
 4.exe: CMakeFiles/4.dir/build.make
 4.exe: CMakeFiles/4.dir/linklibs.rsp
 4.exe: CMakeFiles/4.dir/objects1.rsp

@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "3.exe"
   "3.exe.manifest"
   "3.pdb"
-  "CMakeFiles/3.dir/trailingzerosoffactorial.cpp.obj"
+  "CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.obj"
   "lib3.dll.a"
 )
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/dsa/CLION/Maths Problems/primefactor.cpp" "F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/4.dir/primefactor.cpp.obj"
+  "F:/dsa/CLION/Maths Problems/GFG/primefactor.cpp" "F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/4.dir/GFG/primefactor.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

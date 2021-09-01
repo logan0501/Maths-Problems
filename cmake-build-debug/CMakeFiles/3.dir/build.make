@@ -76,27 +76,27 @@ include CMakeFiles/3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/3.dir/flags.make
 
-CMakeFiles/3.dir/trailingzerosoffactorial.cpp.obj: CMakeFiles/3.dir/flags.make
-CMakeFiles/3.dir/trailingzerosoffactorial.cpp.obj: ../trailingzerosoffactorial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3.dir/trailingzerosoffactorial.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\3.dir\trailingzerosoffactorial.cpp.obj -c "F:\dsa\CLION\Maths Problems\trailingzerosoffactorial.cpp"
+CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.obj: CMakeFiles/3.dir/flags.make
+CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.obj: ../GFG/trailingzerosoffactorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\3.dir\GFG\trailingzerosoffactorial.cpp.obj -c "F:\dsa\CLION\Maths Problems\GFG\trailingzerosoffactorial.cpp"
 
-CMakeFiles/3.dir/trailingzerosoffactorial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3.dir/trailingzerosoffactorial.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\trailingzerosoffactorial.cpp" > CMakeFiles\3.dir\trailingzerosoffactorial.cpp.i
+CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\GFG\trailingzerosoffactorial.cpp" > CMakeFiles\3.dir\GFG\trailingzerosoffactorial.cpp.i
 
-CMakeFiles/3.dir/trailingzerosoffactorial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/trailingzerosoffactorial.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\trailingzerosoffactorial.cpp" -o CMakeFiles\3.dir\trailingzerosoffactorial.cpp.s
+CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\GFG\trailingzerosoffactorial.cpp" -o CMakeFiles\3.dir\GFG\trailingzerosoffactorial.cpp.s
 
 # Object files for target 3
 3_OBJECTS = \
-"CMakeFiles/3.dir/trailingzerosoffactorial.cpp.obj"
+"CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.obj"
 
 # External object files for target 3
 3_EXTERNAL_OBJECTS =
 
-3.exe: CMakeFiles/3.dir/trailingzerosoffactorial.cpp.obj
+3.exe: CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.obj
 3.exe: CMakeFiles/3.dir/build.make
 3.exe: CMakeFiles/3.dir/linklibs.rsp
 3.exe: CMakeFiles/3.dir/objects1.rsp

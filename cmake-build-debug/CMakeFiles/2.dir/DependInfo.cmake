@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/dsa/CLION/Maths Problems/factorial.cpp" "F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/2.dir/factorial.cpp.obj"
+  "F:/dsa/CLION/Maths Problems/GFG/factorial.cpp" "F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/2.dir/GFG/factorial.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "4.exe"
   "4.exe.manifest"
   "4.pdb"
-  "CMakeFiles/4.dir/primefactor.cpp.obj"
+  "CMakeFiles/4.dir/GFG/primefactor.cpp.obj"
   "lib4.dll.a"
 )
 

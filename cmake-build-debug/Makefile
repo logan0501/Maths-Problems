@@ -259,6 +259,19 @@ gfg6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg6.dir\build.make CMakeFiles/gfg6.dir/build
 .PHONY : gfg6/fast
 
+#=============================================================================
+# Target rules for targets named gfg7
+
+# Build rule for target.
+gfg7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg7
+.PHONY : gfg7
+
+# fast build rule for target.
+gfg7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/build
+.PHONY : gfg7/fast
+
 GFG/PrimeNumber.obj: GFG/PrimeNumber.cpp.obj
 
 .PHONY : GFG/PrimeNumber.obj
@@ -340,6 +353,33 @@ GFG/celsiustofarenheit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg2.dir\build.make CMakeFiles/gfg2.dir/GFG/celsiustofarenheit.cpp.s
 .PHONY : GFG/celsiustofarenheit.cpp.s
 
+GFG/countdigits.obj: GFG/countdigits.cpp.obj
+
+.PHONY : GFG/countdigits.obj
+
+# target to build an object file
+GFG/countdigits.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/GFG/countdigits.cpp.obj
+.PHONY : GFG/countdigits.cpp.obj
+
+GFG/countdigits.i: GFG/countdigits.cpp.i
+
+.PHONY : GFG/countdigits.i
+
+# target to preprocess a source file
+GFG/countdigits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/GFG/countdigits.cpp.i
+.PHONY : GFG/countdigits.cpp.i
+
+GFG/countdigits.s: GFG/countdigits.cpp.s
+
+.PHONY : GFG/countdigits.s
+
+# target to generate assembly for a file
+GFG/countdigits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/GFG/countdigits.cpp.s
+.PHONY : GFG/countdigits.cpp.s
+
 GFG/digitsinfactorial.obj: GFG/digitsinfactorial.cpp.obj
 
 .PHONY : GFG/digitsinfactorial.obj
@@ -366,6 +406,60 @@ GFG/digitsinfactorial.s: GFG/digitsinfactorial.cpp.s
 GFG/digitsinfactorial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg4.dir\build.make CMakeFiles/gfg4.dir/GFG/digitsinfactorial.cpp.s
 .PHONY : GFG/digitsinfactorial.cpp.s
+
+GFG/exactly3divisors.obj: GFG/exactly3divisors.cpp.obj
+
+.PHONY : GFG/exactly3divisors.obj
+
+# target to build an object file
+GFG/exactly3divisors.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/GFG/exactly3divisors.cpp.obj
+.PHONY : GFG/exactly3divisors.cpp.obj
+
+GFG/exactly3divisors.i: GFG/exactly3divisors.cpp.i
+
+.PHONY : GFG/exactly3divisors.i
+
+# target to preprocess a source file
+GFG/exactly3divisors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/GFG/exactly3divisors.cpp.i
+.PHONY : GFG/exactly3divisors.cpp.i
+
+GFG/exactly3divisors.s: GFG/exactly3divisors.cpp.s
+
+.PHONY : GFG/exactly3divisors.s
+
+# target to generate assembly for a file
+GFG/exactly3divisors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/GFG/exactly3divisors.cpp.s
+.PHONY : GFG/exactly3divisors.cpp.s
+
+GFG/factorial.obj: GFG/factorial.cpp.obj
+
+.PHONY : GFG/factorial.obj
+
+# target to build an object file
+GFG/factorial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/GFG/factorial.cpp.obj
+.PHONY : GFG/factorial.cpp.obj
+
+GFG/factorial.i: GFG/factorial.cpp.i
+
+.PHONY : GFG/factorial.i
+
+# target to preprocess a source file
+GFG/factorial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/GFG/factorial.cpp.i
+.PHONY : GFG/factorial.cpp.i
+
+GFG/factorial.s: GFG/factorial.cpp.s
+
+.PHONY : GFG/factorial.s
+
+# target to generate assembly for a file
+GFG/factorial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/GFG/factorial.cpp.s
+.PHONY : GFG/factorial.cpp.s
 
 GFG/gpterm.obj: GFG/gpterm.cpp.obj
 
@@ -394,6 +488,33 @@ GFG/gpterm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg5.dir\build.make CMakeFiles/gfg5.dir/GFG/gpterm.cpp.s
 .PHONY : GFG/gpterm.cpp.s
 
+GFG/primefactor.obj: GFG/primefactor.cpp.obj
+
+.PHONY : GFG/primefactor.obj
+
+# target to build an object file
+GFG/primefactor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/GFG/primefactor.cpp.obj
+.PHONY : GFG/primefactor.cpp.obj
+
+GFG/primefactor.i: GFG/primefactor.cpp.i
+
+.PHONY : GFG/primefactor.i
+
+# target to preprocess a source file
+GFG/primefactor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/GFG/primefactor.cpp.i
+.PHONY : GFG/primefactor.cpp.i
+
+GFG/primefactor.s: GFG/primefactor.cpp.s
+
+.PHONY : GFG/primefactor.s
+
+# target to generate assembly for a file
+GFG/primefactor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/GFG/primefactor.cpp.s
+.PHONY : GFG/primefactor.cpp.s
+
 GFG/qudraticroots.obj: GFG/qudraticroots.cpp.obj
 
 .PHONY : GFG/qudraticroots.obj
@@ -421,113 +542,32 @@ GFG/qudraticroots.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg3.dir\build.make CMakeFiles/gfg3.dir/GFG/qudraticroots.cpp.s
 .PHONY : GFG/qudraticroots.cpp.s
 
-countdigits.obj: countdigits.cpp.obj
+GFG/trailingzerosoffactorial.obj: GFG/trailingzerosoffactorial.cpp.obj
 
-.PHONY : countdigits.obj
-
-# target to build an object file
-countdigits.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/countdigits.cpp.obj
-.PHONY : countdigits.cpp.obj
-
-countdigits.i: countdigits.cpp.i
-
-.PHONY : countdigits.i
-
-# target to preprocess a source file
-countdigits.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/countdigits.cpp.i
-.PHONY : countdigits.cpp.i
-
-countdigits.s: countdigits.cpp.s
-
-.PHONY : countdigits.s
-
-# target to generate assembly for a file
-countdigits.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/countdigits.cpp.s
-.PHONY : countdigits.cpp.s
-
-factorial.obj: factorial.cpp.obj
-
-.PHONY : factorial.obj
+.PHONY : GFG/trailingzerosoffactorial.obj
 
 # target to build an object file
-factorial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/factorial.cpp.obj
-.PHONY : factorial.cpp.obj
+GFG/trailingzerosoffactorial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.obj
+.PHONY : GFG/trailingzerosoffactorial.cpp.obj
 
-factorial.i: factorial.cpp.i
+GFG/trailingzerosoffactorial.i: GFG/trailingzerosoffactorial.cpp.i
 
-.PHONY : factorial.i
-
-# target to preprocess a source file
-factorial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/factorial.cpp.i
-.PHONY : factorial.cpp.i
-
-factorial.s: factorial.cpp.s
-
-.PHONY : factorial.s
-
-# target to generate assembly for a file
-factorial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/factorial.cpp.s
-.PHONY : factorial.cpp.s
-
-primefactor.obj: primefactor.cpp.obj
-
-.PHONY : primefactor.obj
-
-# target to build an object file
-primefactor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/primefactor.cpp.obj
-.PHONY : primefactor.cpp.obj
-
-primefactor.i: primefactor.cpp.i
-
-.PHONY : primefactor.i
+.PHONY : GFG/trailingzerosoffactorial.i
 
 # target to preprocess a source file
-primefactor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/primefactor.cpp.i
-.PHONY : primefactor.cpp.i
+GFG/trailingzerosoffactorial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.i
+.PHONY : GFG/trailingzerosoffactorial.cpp.i
 
-primefactor.s: primefactor.cpp.s
+GFG/trailingzerosoffactorial.s: GFG/trailingzerosoffactorial.cpp.s
 
-.PHONY : primefactor.s
-
-# target to generate assembly for a file
-primefactor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/primefactor.cpp.s
-.PHONY : primefactor.cpp.s
-
-trailingzerosoffactorial.obj: trailingzerosoffactorial.cpp.obj
-
-.PHONY : trailingzerosoffactorial.obj
-
-# target to build an object file
-trailingzerosoffactorial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/trailingzerosoffactorial.cpp.obj
-.PHONY : trailingzerosoffactorial.cpp.obj
-
-trailingzerosoffactorial.i: trailingzerosoffactorial.cpp.i
-
-.PHONY : trailingzerosoffactorial.i
-
-# target to preprocess a source file
-trailingzerosoffactorial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/trailingzerosoffactorial.cpp.i
-.PHONY : trailingzerosoffactorial.cpp.i
-
-trailingzerosoffactorial.s: trailingzerosoffactorial.cpp.s
-
-.PHONY : trailingzerosoffactorial.s
+.PHONY : GFG/trailingzerosoffactorial.s
 
 # target to generate assembly for a file
-trailingzerosoffactorial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/trailingzerosoffactorial.cpp.s
-.PHONY : trailingzerosoffactorial.cpp.s
+GFG/trailingzerosoffactorial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.s
+.PHONY : GFG/trailingzerosoffactorial.cpp.s
 
 # Help Target
 help:
@@ -547,6 +587,7 @@ help:
 	@echo ... gfg4
 	@echo ... gfg5
 	@echo ... gfg6
+	@echo ... gfg7
 	@echo ... GFG/PrimeNumber.obj
 	@echo ... GFG/PrimeNumber.i
 	@echo ... GFG/PrimeNumber.s
@@ -556,27 +597,30 @@ help:
 	@echo ... GFG/celsiustofarenheit.obj
 	@echo ... GFG/celsiustofarenheit.i
 	@echo ... GFG/celsiustofarenheit.s
+	@echo ... GFG/countdigits.obj
+	@echo ... GFG/countdigits.i
+	@echo ... GFG/countdigits.s
 	@echo ... GFG/digitsinfactorial.obj
 	@echo ... GFG/digitsinfactorial.i
 	@echo ... GFG/digitsinfactorial.s
+	@echo ... GFG/exactly3divisors.obj
+	@echo ... GFG/exactly3divisors.i
+	@echo ... GFG/exactly3divisors.s
+	@echo ... GFG/factorial.obj
+	@echo ... GFG/factorial.i
+	@echo ... GFG/factorial.s
 	@echo ... GFG/gpterm.obj
 	@echo ... GFG/gpterm.i
 	@echo ... GFG/gpterm.s
+	@echo ... GFG/primefactor.obj
+	@echo ... GFG/primefactor.i
+	@echo ... GFG/primefactor.s
 	@echo ... GFG/qudraticroots.obj
 	@echo ... GFG/qudraticroots.i
 	@echo ... GFG/qudraticroots.s
-	@echo ... countdigits.obj
-	@echo ... countdigits.i
-	@echo ... countdigits.s
-	@echo ... factorial.obj
-	@echo ... factorial.i
-	@echo ... factorial.s
-	@echo ... primefactor.obj
-	@echo ... primefactor.i
-	@echo ... primefactor.s
-	@echo ... trailingzerosoffactorial.obj
-	@echo ... trailingzerosoffactorial.i
-	@echo ... trailingzerosoffactorial.s
+	@echo ... GFG/trailingzerosoffactorial.obj
+	@echo ... GFG/trailingzerosoffactorial.i
+	@echo ... GFG/trailingzerosoffactorial.s
 .PHONY : help
 
 

@@ -76,27 +76,27 @@ include CMakeFiles/2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2.dir/flags.make
 
-CMakeFiles/2.dir/factorial.cpp.obj: CMakeFiles/2.dir/flags.make
-CMakeFiles/2.dir/factorial.cpp.obj: ../factorial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2.dir/factorial.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2.dir\factorial.cpp.obj -c "F:\dsa\CLION\Maths Problems\factorial.cpp"
+CMakeFiles/2.dir/GFG/factorial.cpp.obj: CMakeFiles/2.dir/flags.make
+CMakeFiles/2.dir/GFG/factorial.cpp.obj: ../GFG/factorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2.dir/GFG/factorial.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2.dir\GFG\factorial.cpp.obj -c "F:\dsa\CLION\Maths Problems\GFG\factorial.cpp"
 
-CMakeFiles/2.dir/factorial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2.dir/factorial.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\factorial.cpp" > CMakeFiles\2.dir\factorial.cpp.i
+CMakeFiles/2.dir/GFG/factorial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2.dir/GFG/factorial.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\dsa\CLION\Maths Problems\GFG\factorial.cpp" > CMakeFiles\2.dir\GFG\factorial.cpp.i
 
-CMakeFiles/2.dir/factorial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2.dir/factorial.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\factorial.cpp" -o CMakeFiles\2.dir\factorial.cpp.s
+CMakeFiles/2.dir/GFG/factorial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2.dir/GFG/factorial.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\dsa\CLION\Maths Problems\GFG\factorial.cpp" -o CMakeFiles\2.dir\GFG\factorial.cpp.s
 
 # Object files for target 2
 2_OBJECTS = \
-"CMakeFiles/2.dir/factorial.cpp.obj"
+"CMakeFiles/2.dir/GFG/factorial.cpp.obj"
 
 # External object files for target 2
 2_EXTERNAL_OBJECTS =
 
-2.exe: CMakeFiles/2.dir/factorial.cpp.obj
+2.exe: CMakeFiles/2.dir/GFG/factorial.cpp.obj
 2.exe: CMakeFiles/2.dir/build.make
 2.exe: CMakeFiles/2.dir/linklibs.rsp
 2.exe: CMakeFiles/2.dir/objects1.rsp

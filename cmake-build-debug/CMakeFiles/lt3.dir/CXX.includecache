@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/dsa/CLION/Maths Problems/LEETCODE/sumofdigitsofbasek.cpp
+iostream
+F:/dsa/CLION/Maths Problems/LEETCODE/iostream
+cmath
+F:/dsa/CLION/Maths Problems/LEETCODE/cmath
+algorithm
+F:/dsa/CLION/Maths Problems/LEETCODE/algorithm
+sstream
+F:/dsa/CLION/Maths Problems/LEETCODE/sstream
+

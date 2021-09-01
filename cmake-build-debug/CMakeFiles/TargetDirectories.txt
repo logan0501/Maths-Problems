@@ -9,5 +9,8 @@ F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/4.dir
 F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/gfg5.dir
 F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/gfg6.dir
 F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/gfg7.dir
+F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/lt1.dir
+F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/lt2.dir
+F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/lt3.dir
 F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/dsa/CLION/Maths Problems/cmake-build-debug/CMakeFiles/rebuild_cache.dir

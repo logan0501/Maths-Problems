@@ -272,6 +272,45 @@ gfg7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg7.dir\build.make CMakeFiles/gfg7.dir/build
 .PHONY : gfg7/fast
 
+#=============================================================================
+# Target rules for targets named lt1
+
+# Build rule for target.
+lt1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lt1
+.PHONY : lt1
+
+# fast build rule for target.
+lt1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt1.dir\build.make CMakeFiles/lt1.dir/build
+.PHONY : lt1/fast
+
+#=============================================================================
+# Target rules for targets named lt2
+
+# Build rule for target.
+lt2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lt2
+.PHONY : lt2
+
+# fast build rule for target.
+lt2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt2.dir\build.make CMakeFiles/lt2.dir/build
+.PHONY : lt2/fast
+
+#=============================================================================
+# Target rules for targets named lt3
+
+# Build rule for target.
+lt3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lt3
+.PHONY : lt3
+
+# fast build rule for target.
+lt3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt3.dir\build.make CMakeFiles/lt3.dir/build
+.PHONY : lt3/fast
+
 GFG/PrimeNumber.obj: GFG/PrimeNumber.cpp.obj
 
 .PHONY : GFG/PrimeNumber.obj
@@ -569,6 +608,87 @@ GFG/trailingzerosoffactorial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/GFG/trailingzerosoffactorial.cpp.s
 .PHONY : GFG/trailingzerosoffactorial.cpp.s
 
+LEETCODE/gcdofarray.obj: LEETCODE/gcdofarray.cpp.obj
+
+.PHONY : LEETCODE/gcdofarray.obj
+
+# target to build an object file
+LEETCODE/gcdofarray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt1.dir\build.make CMakeFiles/lt1.dir/LEETCODE/gcdofarray.cpp.obj
+.PHONY : LEETCODE/gcdofarray.cpp.obj
+
+LEETCODE/gcdofarray.i: LEETCODE/gcdofarray.cpp.i
+
+.PHONY : LEETCODE/gcdofarray.i
+
+# target to preprocess a source file
+LEETCODE/gcdofarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt1.dir\build.make CMakeFiles/lt1.dir/LEETCODE/gcdofarray.cpp.i
+.PHONY : LEETCODE/gcdofarray.cpp.i
+
+LEETCODE/gcdofarray.s: LEETCODE/gcdofarray.cpp.s
+
+.PHONY : LEETCODE/gcdofarray.s
+
+# target to generate assembly for a file
+LEETCODE/gcdofarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt1.dir\build.make CMakeFiles/lt1.dir/LEETCODE/gcdofarray.cpp.s
+.PHONY : LEETCODE/gcdofarray.cpp.s
+
+LEETCODE/numberofstepstoreducetozero.obj: LEETCODE/numberofstepstoreducetozero.cpp.obj
+
+.PHONY : LEETCODE/numberofstepstoreducetozero.obj
+
+# target to build an object file
+LEETCODE/numberofstepstoreducetozero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt2.dir\build.make CMakeFiles/lt2.dir/LEETCODE/numberofstepstoreducetozero.cpp.obj
+.PHONY : LEETCODE/numberofstepstoreducetozero.cpp.obj
+
+LEETCODE/numberofstepstoreducetozero.i: LEETCODE/numberofstepstoreducetozero.cpp.i
+
+.PHONY : LEETCODE/numberofstepstoreducetozero.i
+
+# target to preprocess a source file
+LEETCODE/numberofstepstoreducetozero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt2.dir\build.make CMakeFiles/lt2.dir/LEETCODE/numberofstepstoreducetozero.cpp.i
+.PHONY : LEETCODE/numberofstepstoreducetozero.cpp.i
+
+LEETCODE/numberofstepstoreducetozero.s: LEETCODE/numberofstepstoreducetozero.cpp.s
+
+.PHONY : LEETCODE/numberofstepstoreducetozero.s
+
+# target to generate assembly for a file
+LEETCODE/numberofstepstoreducetozero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt2.dir\build.make CMakeFiles/lt2.dir/LEETCODE/numberofstepstoreducetozero.cpp.s
+.PHONY : LEETCODE/numberofstepstoreducetozero.cpp.s
+
+LEETCODE/sumofdigitsofbasek.obj: LEETCODE/sumofdigitsofbasek.cpp.obj
+
+.PHONY : LEETCODE/sumofdigitsofbasek.obj
+
+# target to build an object file
+LEETCODE/sumofdigitsofbasek.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt3.dir\build.make CMakeFiles/lt3.dir/LEETCODE/sumofdigitsofbasek.cpp.obj
+.PHONY : LEETCODE/sumofdigitsofbasek.cpp.obj
+
+LEETCODE/sumofdigitsofbasek.i: LEETCODE/sumofdigitsofbasek.cpp.i
+
+.PHONY : LEETCODE/sumofdigitsofbasek.i
+
+# target to preprocess a source file
+LEETCODE/sumofdigitsofbasek.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt3.dir\build.make CMakeFiles/lt3.dir/LEETCODE/sumofdigitsofbasek.cpp.i
+.PHONY : LEETCODE/sumofdigitsofbasek.cpp.i
+
+LEETCODE/sumofdigitsofbasek.s: LEETCODE/sumofdigitsofbasek.cpp.s
+
+.PHONY : LEETCODE/sumofdigitsofbasek.s
+
+# target to generate assembly for a file
+LEETCODE/sumofdigitsofbasek.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt3.dir\build.make CMakeFiles/lt3.dir/LEETCODE/sumofdigitsofbasek.cpp.s
+.PHONY : LEETCODE/sumofdigitsofbasek.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -588,6 +708,9 @@ help:
 	@echo ... gfg5
 	@echo ... gfg6
 	@echo ... gfg7
+	@echo ... lt1
+	@echo ... lt2
+	@echo ... lt3
 	@echo ... GFG/PrimeNumber.obj
 	@echo ... GFG/PrimeNumber.i
 	@echo ... GFG/PrimeNumber.s
@@ -621,6 +744,15 @@ help:
 	@echo ... GFG/trailingzerosoffactorial.obj
 	@echo ... GFG/trailingzerosoffactorial.i
 	@echo ... GFG/trailingzerosoffactorial.s
+	@echo ... LEETCODE/gcdofarray.obj
+	@echo ... LEETCODE/gcdofarray.i
+	@echo ... LEETCODE/gcdofarray.s
+	@echo ... LEETCODE/numberofstepstoreducetozero.obj
+	@echo ... LEETCODE/numberofstepstoreducetozero.i
+	@echo ... LEETCODE/numberofstepstoreducetozero.s
+	@echo ... LEETCODE/sumofdigitsofbasek.obj
+	@echo ... LEETCODE/sumofdigitsofbasek.i
+	@echo ... LEETCODE/sumofdigitsofbasek.s
 .PHONY : help
 
 

@@ -15,3 +15,7 @@ add_executable(gfg4 GFG/digitsinfactorial.cpp)
 add_executable(gfg5 GFG/gpterm.cpp)
 add_executable(gfg6 GFG/PrimeNumber.cpp)
 add_executable(gfg7 GFG/exactly3divisors.cpp)
+
+add_executable(lt1 LEETCODE/gcdofarray.cpp)
+add_executable(lt2 LEETCODE/numberofstepstoreducetozero.cpp)
+add_executable(lt3 LEETCODE/sumofdigitsofbasek.cpp)

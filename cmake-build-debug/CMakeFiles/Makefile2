@@ -83,7 +83,9 @@ all: CMakeFiles/4.dir/all
 all: CMakeFiles/gfg5.dir/all
 all: CMakeFiles/gfg6.dir/all
 all: CMakeFiles/gfg7.dir/all
+all: CMakeFiles/gfg8.dir/all
 all: CMakeFiles/lt1.dir/all
+all: CMakeFiles/gfg9.dir/all
 all: CMakeFiles/lt2.dir/all
 all: CMakeFiles/lt3.dir/all
 
@@ -106,7 +108,9 @@ clean: CMakeFiles/4.dir/clean
 clean: CMakeFiles/gfg5.dir/clean
 clean: CMakeFiles/gfg6.dir/clean
 clean: CMakeFiles/gfg7.dir/clean
+clean: CMakeFiles/gfg8.dir/clean
 clean: CMakeFiles/lt1.dir/clean
+clean: CMakeFiles/gfg9.dir/clean
 clean: CMakeFiles/lt2.dir/clean
 clean: CMakeFiles/lt3.dir/clean
 
@@ -410,13 +414,40 @@ CMakeFiles/gfg7.dir/clean:
 .PHONY : CMakeFiles/gfg7.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/gfg8.dir
+
+# All Build rule for target.
+CMakeFiles/gfg8.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg8.dir\build.make CMakeFiles/gfg8.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg8.dir\build.make CMakeFiles/gfg8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target gfg8"
+.PHONY : CMakeFiles/gfg8.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gfg8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gfg8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/gfg8.dir/rule
+
+# Convenience name for target.
+gfg8: CMakeFiles/gfg8.dir/rule
+
+.PHONY : gfg8
+
+# clean rule for target.
+CMakeFiles/gfg8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg8.dir\build.make CMakeFiles/gfg8.dir/clean
+.PHONY : CMakeFiles/gfg8.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/lt1.dir
 
 # All Build rule for target.
 CMakeFiles/lt1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt1.dir\build.make CMakeFiles/lt1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt1.dir\build.make CMakeFiles/lt1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target lt1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target lt1"
 .PHONY : CMakeFiles/lt1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -437,13 +468,40 @@ CMakeFiles/lt1.dir/clean:
 .PHONY : CMakeFiles/lt1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/gfg9.dir
+
+# All Build rule for target.
+CMakeFiles/gfg9.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg9.dir\build.make CMakeFiles/gfg9.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg9.dir\build.make CMakeFiles/gfg9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target gfg9"
+.PHONY : CMakeFiles/gfg9.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gfg9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gfg9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/gfg9.dir/rule
+
+# Convenience name for target.
+gfg9: CMakeFiles/gfg9.dir/rule
+
+.PHONY : gfg9
+
+# clean rule for target.
+CMakeFiles/gfg9.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg9.dir\build.make CMakeFiles/gfg9.dir/clean
+.PHONY : CMakeFiles/gfg9.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/lt2.dir
 
 # All Build rule for target.
 CMakeFiles/lt2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt2.dir\build.make CMakeFiles/lt2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt2.dir\build.make CMakeFiles/lt2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target lt2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=29,30 "Built target lt2"
 .PHONY : CMakeFiles/lt2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -470,7 +528,7 @@ CMakeFiles/lt2.dir/clean:
 CMakeFiles/lt3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt3.dir\build.make CMakeFiles/lt3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt3.dir\build.make CMakeFiles/lt3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target lt3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\dsa\CLION\Maths Problems\cmake-build-debug\CMakeFiles" --progress-num=31,32 "Built target lt3"
 .PHONY : CMakeFiles/lt3.dir/all
 
 # Build rule for subdir invocation for target.

@@ -273,6 +273,19 @@ gfg7/fast:
 .PHONY : gfg7/fast
 
 #=============================================================================
+# Target rules for targets named gfg8
+
+# Build rule for target.
+gfg8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg8
+.PHONY : gfg8
+
+# fast build rule for target.
+gfg8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg8.dir\build.make CMakeFiles/gfg8.dir/build
+.PHONY : gfg8/fast
+
+#=============================================================================
 # Target rules for targets named lt1
 
 # Build rule for target.
@@ -284,6 +297,19 @@ lt1: cmake_check_build_system
 lt1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt1.dir\build.make CMakeFiles/lt1.dir/build
 .PHONY : lt1/fast
+
+#=============================================================================
+# Target rules for targets named gfg9
+
+# Build rule for target.
+gfg9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gfg9
+.PHONY : gfg9
+
+# fast build rule for target.
+gfg9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg9.dir\build.make CMakeFiles/gfg9.dir/build
+.PHONY : gfg9/fast
 
 #=============================================================================
 # Target rules for targets named lt2
@@ -500,6 +526,33 @@ GFG/factorial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/GFG/factorial.cpp.s
 .PHONY : GFG/factorial.cpp.s
 
+GFG/fullyprime.obj: GFG/fullyprime.cpp.obj
+
+.PHONY : GFG/fullyprime.obj
+
+# target to build an object file
+GFG/fullyprime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg8.dir\build.make CMakeFiles/gfg8.dir/GFG/fullyprime.cpp.obj
+.PHONY : GFG/fullyprime.cpp.obj
+
+GFG/fullyprime.i: GFG/fullyprime.cpp.i
+
+.PHONY : GFG/fullyprime.i
+
+# target to preprocess a source file
+GFG/fullyprime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg8.dir\build.make CMakeFiles/gfg8.dir/GFG/fullyprime.cpp.i
+.PHONY : GFG/fullyprime.cpp.i
+
+GFG/fullyprime.s: GFG/fullyprime.cpp.s
+
+.PHONY : GFG/fullyprime.s
+
+# target to generate assembly for a file
+GFG/fullyprime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg8.dir\build.make CMakeFiles/gfg8.dir/GFG/fullyprime.cpp.s
+.PHONY : GFG/fullyprime.cpp.s
+
 GFG/gpterm.obj: GFG/gpterm.cpp.obj
 
 .PHONY : GFG/gpterm.obj
@@ -580,6 +633,33 @@ GFG/qudraticroots.s: GFG/qudraticroots.cpp.s
 GFG/qudraticroots.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg3.dir\build.make CMakeFiles/gfg3.dir/GFG/qudraticroots.cpp.s
 .PHONY : GFG/qudraticroots.cpp.s
+
+GFG/sumofprime.obj: GFG/sumofprime.cpp.obj
+
+.PHONY : GFG/sumofprime.obj
+
+# target to build an object file
+GFG/sumofprime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg9.dir\build.make CMakeFiles/gfg9.dir/GFG/sumofprime.cpp.obj
+.PHONY : GFG/sumofprime.cpp.obj
+
+GFG/sumofprime.i: GFG/sumofprime.cpp.i
+
+.PHONY : GFG/sumofprime.i
+
+# target to preprocess a source file
+GFG/sumofprime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg9.dir\build.make CMakeFiles/gfg9.dir/GFG/sumofprime.cpp.i
+.PHONY : GFG/sumofprime.cpp.i
+
+GFG/sumofprime.s: GFG/sumofprime.cpp.s
+
+.PHONY : GFG/sumofprime.s
+
+# target to generate assembly for a file
+GFG/sumofprime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gfg9.dir\build.make CMakeFiles/gfg9.dir/GFG/sumofprime.cpp.s
+.PHONY : GFG/sumofprime.cpp.s
 
 GFG/trailingzerosoffactorial.obj: GFG/trailingzerosoffactorial.cpp.obj
 
@@ -708,6 +788,8 @@ help:
 	@echo ... gfg5
 	@echo ... gfg6
 	@echo ... gfg7
+	@echo ... gfg8
+	@echo ... gfg9
 	@echo ... lt1
 	@echo ... lt2
 	@echo ... lt3
@@ -732,6 +814,9 @@ help:
 	@echo ... GFG/factorial.obj
 	@echo ... GFG/factorial.i
 	@echo ... GFG/factorial.s
+	@echo ... GFG/fullyprime.obj
+	@echo ... GFG/fullyprime.i
+	@echo ... GFG/fullyprime.s
 	@echo ... GFG/gpterm.obj
 	@echo ... GFG/gpterm.i
 	@echo ... GFG/gpterm.s
@@ -741,6 +826,9 @@ help:
 	@echo ... GFG/qudraticroots.obj
 	@echo ... GFG/qudraticroots.i
 	@echo ... GFG/qudraticroots.s
+	@echo ... GFG/sumofprime.obj
+	@echo ... GFG/sumofprime.i
+	@echo ... GFG/sumofprime.s
 	@echo ... GFG/trailingzerosoffactorial.obj
 	@echo ... GFG/trailingzerosoffactorial.i
 	@echo ... GFG/trailingzerosoffactorial.s

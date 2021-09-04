@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/dsa/CLION/Maths Problems/GFG/fullyprime.cpp
+iostream
+F:/dsa/CLION/Maths Problems/GFG/iostream
+
